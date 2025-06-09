@@ -46,7 +46,7 @@ public final class TodoListView implements ListDataListener{                    
         this.buttonsPanel.setLayout(new BoxLayout(this.buttonsPanel, BoxLayout.LINE_AXIS));                             //Horizontale Anordnung des gesamten Eingabebereiches
         this.buttonsPanel.add(inputHeader);                                                                             //Eingabefeld für die Überschrift des Todo Elementes
         this.buttonsPanel.add(inputMessage);                                                                            //Eingabefeld für den Inhalt des Todo Elementes
-        this.buttonsPanel.add(inputSubmit);                                                                             //Schaltfläche zum hinzufpgen des Todo Elementes
+        this.buttonsPanel.add(inputSubmit);                                                                             //Schaltfläche zum hinzufügen des Todo Elementes
         masterPanel.add(this.buttonsPanel, BorderLayout.PAGE_START);                                                    //Einfügen des Eiganbebereiches in den oberen Bereich der Todo Liste
 //Initilaisierung eines Panels zur Anzeige der Todo Elemente
         this.todoPanel = new JPanel();
