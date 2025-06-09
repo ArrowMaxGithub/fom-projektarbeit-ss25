@@ -87,7 +87,7 @@ public final class TodoListView implements ListDataListener{                    
         System.out.println("contentsChanged: " + e.getIndex0() + " - "  + e.getIndex1());
         update();
     }
-    //Metzhode die aufgerufen wird wenn ein Todo Element zu der Todo Liste hinzugefügt werden soll
+    //Methode die aufgerufen wird wenn ein Todo Element zu der Todo Liste hinzugefügt werden soll
     void addElement(TodoElement element){
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.LINE_AXIS));
