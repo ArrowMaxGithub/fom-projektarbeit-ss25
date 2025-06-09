@@ -2,7 +2,7 @@
 public final class TodoElement{
     private final String header;                                                                                        //Überschrift des Todo Elementes
     private final String message;                                                                                       //Inhalt des Todo Elementes
-    // Konstruktor zum Intialisierung des Todo Elementes mit Überschrift und Inahlt
+    // Konstruktor zum Initialisierung des Todo Elementes mit Überschrift und Inhalt
     public TodoElement(String header, String message) {
         this.header = header;
         this.message = message;
