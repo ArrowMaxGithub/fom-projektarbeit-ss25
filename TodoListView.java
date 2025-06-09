@@ -110,7 +110,7 @@ public final class TodoListView implements ListDataListener{                    
         JButton done = new JButton("erledigt");
         JButton up = new JButton("🠉");
         JButton down = new JButton("🠋");
-//Initialisiern von Aktionen für die Schaltflächen innerhalb der Todo Liste
+//Initialisieren von Aktionen für die Schaltflächen innerhalb der Todo Liste
         done.addActionListener((ActionEvent _) -> {
             this.controller.removeTodoElement(element);                                                                 //Hinzufügen der Aktion 'Entferne das Todo Element aus der Liste'
         });
