@@ -37,7 +37,7 @@ public final class TodoListModel extends AbstractListModel<TodoElement>{
     //Verschieben des Elementes nach oben, wenn es nicht an oberster Stelle der Todo Liste steht
     public void moveElementUp(TodoElement element){
         int index = this.list.indexOf(element);                                                                         //Abfrage des Index des Elementes
-        if (index == 0){                                                                                                //Überprüfung ob das Element an oberster Stelle steht
+        if (index == 0){                                                                                                //Überprüfung, ob das Element an oberster Stelle steht
             return;
         }
         //Austausch des Elements mit dem darüber liegenden
