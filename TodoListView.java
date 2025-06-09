@@ -36,10 +36,10 @@ public final class TodoListView implements ListDataListener{                    
         JTextField inputHeader = new JTextField("Titel");                                                               //Erstellung des Textfeldes 'Titel'
         JTextField inputMessage = new JTextField("Aufgabe");                                                            //Erstellung des Textfeldes 'Aufgabe'
         JButton inputSubmit = new JButton("Hinzufügen");                                                                //Erstellung des Buttons 'Hinzufügen'
-        inputSubmit.addActionListener((ActionEvent _) -> {                                                              //Erstellung des Textfeldes 'Titel'
-            controller.addTodoElement(new TodoElement(inputHeader.getText(), inputMessage.getText()));                  //Erstellung des Textfeldes 'Titel'
-            inputHeader.setText("Titel");                                                                               //Erstellung des Textfeldes 'Titel'
-            inputMessage.setText("Aufgabe");                                                                            //Erstellung des Textfeldes 'Titel'
+        inputSubmit.addActionListener((ActionEvent _) -> {                                                              // Registrierung des ActionListeners für den "Hinzufügen" Button
+            controller.addTodoElement(new TodoElement(inputHeader.getText(), inputMessage.getText()));                  // Als Reaktion wird ein neues Element mit den eingegeben Daten hinzugefügt
+            inputHeader.setText("Titel");                                                                               // Eingabefeld 'Titel' wird auf Platzhaltertext zurückgesetzt
+            inputMessage.setText("Aufgabe");                                                                            // Eingabefeld 'Aufgabe' wird auf Platzhaltertext zurückgesetzt
         });
 //Initialisierung des Panels zur Eingabe eines neuen Todo Elementes
         this.buttonsPanel = new JPanel();
