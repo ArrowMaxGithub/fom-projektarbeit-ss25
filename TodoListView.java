@@ -106,7 +106,7 @@ public final class TodoListView implements ListDataListener{                    
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         scrollPane.setMaximumSize(new Dimension(400, 100));
         panel.add(scrollPane);
-//Initiliserung der Schaltflächen: 'erledgit', 'hoch', 'runter'
+//Initialiserung der Schaltflächen: 'erledigt', 'hoch', 'runter'
         JButton done = new JButton("erledigt");
         JButton up = new JButton("🠉");
         JButton down = new JButton("🠋");
