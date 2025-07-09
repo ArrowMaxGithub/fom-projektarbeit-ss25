@@ -3,15 +3,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class miniGUI extends JPanel {
+public class MiniGUI extends JPanel {
     public static void main(String[] args) {
         JFrame frame = new JFrame("MiniGUI");                                                                         
         frame.setSize(300, 75);
-        frame.add(new miniGUI());
+        frame.add(new MiniGUI());
         frame.setVisible(true);
     }
 
-    public miniGUI() {
+    public MiniGUI() {
         JButton button = new JButton("Würfeln");
         JLabel ergebnis = new JLabel("Ergebnis: ?");
         button.addActionListener((_) -> {
