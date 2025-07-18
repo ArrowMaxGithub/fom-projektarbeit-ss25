@@ -12,4 +12,4 @@ Aufbau nach MVC-Prinzip:
 ## Codebeispiele
 Die Dateien ExampleAdapter.java und MiniGUI.java sind lediglich Code-Beispiele, welche in der Projektarbeit verwendet werden:
 - ExampleAdapter.java: Implementierung eines KeyListener über Adapterklasse KeyAdapter
-- MiniGUI.java: Minimale Beispielanwendung im Eventhandling
+- ExampleMiniGUI.java: Minimale Beispielanwendung im Eventhandling
