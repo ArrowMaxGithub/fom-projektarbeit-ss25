@@ -1,18 +1,19 @@
-//Initialisierung des Inhaltes eines Todo Elementes
+// Ein einzelnes To-do Element in der Liste offener Aufgaben
 public final class TodoElement{
-    private final String header;                                                                                        //Überschrift des Todo Elementes
-    private final String message;                                                                                       //Inhalt des Todo Elementes
-    // Konstruktor zum Initialisierung des Todo Elementes mit Überschrift und Inhalt
+    private final String header; // Überschrift des To-do Elementes
+    private final String message; // Aufgabenbeschreibung des To-do Elementes
+
+    // Konstruktor zum Initialisierung des To-do Elementes mit Überschrift und Aufgabenbeschreibung
     public TodoElement(String header, String message) {
         this.header = header;
         this.message = message;
     }
 
     public String getHeader() {
-        return header;																									//Rückgabe der Überschrift des Todo Elementes, wodurch diese zur Verfügung gestellt wird
+        return this.header; // Rückgabe der Überschrift des To-do Elementes
     }
 
     public String getMessage() {
-        return message;																									//Rückgabe des Inhaltes des Todo Elementes, wodurch dieser zur Verfügung gestellt wird
+        return this.message; // Rückgabe der Aufgabenbeschreibung des To-do Elementes
     }
 }
